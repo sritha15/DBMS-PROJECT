@@ -22,9 +22,9 @@ PATH=$JAVA_HOME/bin:$MAVEN_HOME/bin:$HADOOP_HOME/bin
 - Select ".dmg (Intel)" or ".dmg (Apple Silicon)" according to your hardware.
 - Mount the dmg file and install the app.
 
-- Create an Empty Maven Project. 
+- Clone this repository 
 ```sh
-mvn archetype:generate -DgroupId=edu.ucr.cs.cs167.sdudd001 -DartifactId=sdudd001_lab1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+git clone https://github.com/sritha15/DBMS-PROJECT.git
 ```
 
 - Import Your Project into InelliJ IDEA. Open IntelliJ IDEA and choose "Open". Choose the directory of your new Maven project, select the "pom.xml" file. In the promot, choose "Open as Project". The project will open. It may take some time to import the project and download neessary dependencies. Open the file "App.java" and click the small green arrow to run the main class.
