@@ -35,7 +35,7 @@ git clone https://github.com/sritha15/DBMS-PROJECT.git
 - Start the master node by running `hdfs namenode`
 - Start the data node by running `hdfs datanode` in another terminal 
 - Create a home directory for yourself if it does not exist. `hdfs dfs -mkdir -p .`
-- Upload the dataset to home directory in HDFS. `hdfs dfs -put <filepath>` - available in github
+- Upload the dataset to home directory in HDFS. `hdfs dfs -put combined_data.csv` - available in github
 
 - After completion of code add program parameters - Add Parameters `hdfs://localhost:9000/user/sritha/combined_data.csv output` and then run the file after building 
 
